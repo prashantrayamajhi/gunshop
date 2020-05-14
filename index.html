@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!------- CSS  -------->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!---- Font Awesome CDN------->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!------------ Animate CSS CDN -------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" integrity="sha256-6hqHMqXTVEds1R8HgKisLm3l/doneQs+rS1a5NLmwwo=" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <title>Gun Shop</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <h3>GunShop</h3>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"> <a href="#home" class="nav-link ">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link ">About</a></li>
+                
+                <li class="nav-item"><a href="#store" class="nav-link ">Products</a></li>
+
+            </ul>
+          </div>
+        </nav>
+    </nav>
+ <!---------------------------------------- Navbar Ends----------------------------------------------->   
+ <header>
+        <div id="wrapper" >
+            <h2 class="animate__animated animate__rubberBand">Welcome to my Gun Shop</h2>
+            <button class="btn btn-danger"><a href="#store">Shop</a></button>
+        </div>
+ </header>
+ <!--------------------------------------Header Ends------------------------------------>
+ <section class="container-fluid bg-light">
+    <div class="row" id="about">
+        <div class="col-lg-8 col-md-12 col-sm-12">
+            <h2 class="text-center">About The Shop</h2>
+            <p>I have created this shop for my future game project. I am thinking of creating a gun-game.This would be the shop where
+                players will be able to buy and sell second hand or first hand guns. I hope this store will be a convenient place
+                for the players to carry out their trade. Who know's, this may not only be limited to a shop but also the greatest 
+                trading section on web! PS: I am still talking about trading guns only inside of a game.To be honest I only created
+                this in order to test the filter feature which is at the shop section of this site. I did it using jQuery xD
+            </p>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <img id="about-img" src="images/background.jpg"  class="img-fluid">
+        </div>
+    </div>
+ </section>
+
+<!------------------------------------- STORE -------------------------------------->
+<section class="container-fluid bg-dark">
+    <div id="store">
+        <h1>The Store</h1>
+        <div id="tags">
+            <button class="btn btn-outline-info mx-5 my-2" id="all-btn">All</button>
+            <button class="btn btn-outline-info mx-5 my-2" id="pistol-btn">Pistols</button>
+            <button class="btn btn-outline-info mx-5 my-2" id="sniper-btn">Snipers</button>
+        </div>
+        <div id="items">
+                <div class="card pistol-card" style="width:250px">
+                    <img class="card-img-top" src="images/pistol/1.png" alt="Card image">
+                    <div class="card-body bg-dark">
+                    <h4 class="card-title">Pistol</h4>
+                    <p class="card-text">$1000</p>
+                    <a class="btn btn-success buy-btn">Buy</a>
+                    
+                    </div>
+                </div>
+                <div class="card pistol-card" style="width:250px">
+                    <img class="card-img-top" src="images/pistol/2.png" alt="Card image">
+                    <div class="card-body bg-dark">
+                    <h4 class="card-title">Pistol</h4>
+                    <p class="card-text">$1000</p>
+                    <a class="btn btn-success buy-btn">Buy</a>
+                    
+                    </div>
+                </div>
+
+                <div class="card pistol-card" style="width:250px">
+                    <img class="card-img-top" src="images/pistol/3.png" alt="Card image">
+                    <div class="card-body bg-dark">
+                    <h4 class="card-title">Pistol</h4>
+                    <p class="card-text">$1000</p>
+                    <a class="btn btn-success buy-btn">Buy</a>
+                    
+                    </div>
+                </div>
+          
+
+                <div class="card sniper-card" style="width:250px">
+                    <img class="card-img-top" src="images/sniper/1.jpg" alt="Card image">
+                    <div class="card-body bg-dark">
+                    <h4 class="card-title">Sniper</h4>
+                    <p class="card-text">$10000</p>
+                    <a class="btn btn-success buy-btn">Buy</a>
+                    
+                    </div>
+                </div>
+                <div class="card sniper-card" style="width:250px">
+                    <img class="card-img-top" src="images/sniper/2.jpg" alt="Card image">
+                    <div class="card-body bg-dark">
+                    <h4 class="card-title">Sniper</h4>
+                    <p class="card-text">$10000</p>
+                    <a class="btn btn-success buy-btn">Buy</a>
+                    
+                    </div>
+                </div>
+                <div class="card sniper-card" style="width:250px">
+                    <img class="card-img-top" src="images/sniper/3.jpg" alt="Card image">
+                    <div class="card-body bg-dark">
+                    <h4 class="card-title">Sniper</h4>
+                    <p class="card-text">$10000</p>
+                    <a class="btn btn-success buy-btn">Buy</a>
+                    </div>
+                </div>
+                </div>
+
+</section>
+<!---------------------------------- Footer--------------------------------------->
+<footer>
+    <h3>Prashant Rayamajhi 2020</h3>
+</footer>
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
