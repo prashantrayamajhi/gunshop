@@ -114,10 +114,19 @@ header{
 }
 #tags{
     margin: 20px 0;
+    width: 100%;
+    
 }
 #tags button{
-    width: 10%;
+ 
+    width: 50%;
 }
+
+/* .dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
 #items{
     margin: 30px 0;
 }
@@ -140,6 +149,8 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     margin: 10px;   
 }
+
+
 
 footer{
     padding: 20px;
